@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  
+  <img src="UFOMED.jpg" class="logo" alt="">  
+
+    </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFOMED</title>
+</head>
+<body>
+  <header>
+
+    <div class=" content">
+      
+  <div class="menu container">
+  <a href="index.html" class="img"></a>  
+  <input type="checkbox" id="menu"/>
+  <label for="menu">
+  <img src="iconos.jpg" class="menu-icono" alt="">
+    </label>
+   <nav class="navbar">
+   <ul>
+  <li><a href="servicios.html">Servicios</a></li>
+  <li><a href="index.html">Inicio</a></li>
+  <li><a href="Diplomados.html">Diplomados</a></li>
+  <li><a href="Cita.html">Citas</a></li>
+  </ul>
+  </nav>
+  </div>
+  </div>
+  </header>
+  
+</body>
+<body>
+    <h1>En construcción</h1>
+
+<style>
+
+body{
+  background-color: rgb(17, 233, 253);
+}
+
+.logo{
+    display: flex;
+   height: 100px;
+  }
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+display: flex;
+position: sticky;
+top: 0;
+overflow: hidden;
+
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.content {
+  min-height: 80px;
+
+}
+
+.menu {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.img {
+  font-size: 25px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.menu .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+.menu .navbar ul li a {
+  font-size: 18px;
+  padding: 20px;
+  color: black;
+  display: block;
+  font-weight: bold;
+}
+
+.menu .navbar ul li a:hover {
+  color: white;
+}
+
+#menu {
+  display: none;
+}
+
+.menu-icono {
+  width: 25px;
+}
+
+.menu label {
+  cursor: pointer;
+  display: none;
+}
+
+h1 {
+  margin: 80px 0 0 350px;
+}
+
+@media(max-width:991px) {
+
+  .content {
+    min-height: 70px;
+  }
+
+  .menu {
+    top: 0;
+    padding: 20px;
+  }
+
+  .menu label {
+    display: initial;
+  }
+
+  .menu .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgb(127, 255, 232);
+    display: none;
+  }
+
+  #menu:checked ~ .navbar {
+    display: initial;
+  }
+
+  .menu .navbar ul li {
+    width: 100%;
+  }
+}
+
+</style>
+    
+</body>
+</html> 
